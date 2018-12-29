@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60375" started-at="2018-12-29T05:57:28Z" finished-at="2018-12-29T05:58:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60375" started-at="2018-12-29T05:57:28Z" finished-at="2018-12-29T05:58:28Z">
+      <class name="com.qa.testcases.FlightBookingTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.FlightBookingTest@162be91c]" name="setUp" is-config="true" duration-ms="9864" started-at="2018-12-29T05:57:29Z" finished-at="2018-12-29T05:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFlightBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.FlightBookingTest@162be91c]" name="testFlightBooking" duration-ms="48780" started-at="2018-12-29T05:57:39Z" data-provider="getData" finished-at="2018-12-29T05:58:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DEL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9900465757]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kplokesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Lokesh]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kondepudi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ramesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlightBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.FlightBookingTest@162be91c]" name="tearDown" is-config="true" duration-ms="146" started-at="2018-12-29T05:58:28Z" finished-at="2018-12-29T05:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.FlightBookingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
